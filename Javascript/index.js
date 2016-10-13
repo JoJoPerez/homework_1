@@ -1,8 +1,12 @@
 document.write("Hello World!");
 // post DOM loaded
-document.addEventListener('DOMContentLoaded', function(){ 
+document.addEventListener('DOMContentLoaded', function(event)
+{ 
+	var greeting;
+	var greeting = "funny string";
 
-// put code that waits for DOM
+	document.write( greeting );
 
 
-}, false);
+
+});
