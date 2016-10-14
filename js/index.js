@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function(event)
 
 	document.write( greeting );
 
+	document.getElementById('style').style.color = 'Blue';
+
+
 
 
 });
