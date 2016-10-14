@@ -1,0 +1,14 @@
+ul {
+  border: sSteelBlue;
+  list-style: none;
+}
+
+li {
+/* t r b l */
+  margin: 2.5em 2.5em 2.5em 0;
+  background: DarkGrey;
+  border: DodgerBlue;
+  float: left; /* bring them next to one another */
+  width: 90px;
+  padding: 1em
+}
