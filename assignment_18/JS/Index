@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title></title>
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    <div id="cameras"> Check out these cameras</div>
+
+  </body>
+</html>
