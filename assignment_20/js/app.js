@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 
-function greetFunc(){
+function Chkout(){
     console.log('Chkout');
+}
 
 	
 	
