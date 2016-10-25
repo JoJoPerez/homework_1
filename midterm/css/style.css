@@ -1,0 +1,58 @@
+div.Sneakers {
+    width: 500px;
+    margin: auto;
+    border: 5px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 18px 4px 43px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 18px 4px 43px 0px rgba(0,0,0,0.75);
+     box-shadow: inset 18px 4px 43px 0px rgba(0,0,0,0.75);
+}
+
+h1 { border: 5px solid black;
+	 width:  300px; 
+	 padding: 10px;
+	 border-radius: 5px;
+	 -webkit-box-shadow: inset 18px 4px 43px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: inset 18px 4px 43px 0px rgba(0,0,0,0.75);
+      box-shadow: inset 18px 4px 43px 0px rgba(0,0,0,0.75);
+  }
+
+  div.bw { border: 5px solid black;
+  		   width: 300px;
+  	       padding: 7px;
+  		  -webkit-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+          -moz-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+          box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+
+  }
+
+  div.maroon { border: 5px solid red;
+  	           width: 300px;
+  	           padding: 7px;
+  		       -webkit-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+               -moz-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+               box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+
+
+  }
+
+  div.black { border: 5px solid green;
+  	          padding: 7px;
+  	          width: 300px;
+  		     -webkit-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+             -moz-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+              box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+
+
+  }
+
+  div.TCQ { border: 5px solid black;
+  	        padding: 7px;
+  	        width: 300px;
+  		   -webkit-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+           -moz-box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+           box-shadow: 18px 4px 43px 0px rgba(0,0,0,0.75);
+
+
+  }
