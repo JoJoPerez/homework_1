@@ -3,9 +3,9 @@ console.log('my js was hit')
 document.addEventListener("DOMContentLoaded", function(event) {
 
 	
-	var greetBtnDiv = document.getElementById('Chkout');
+	var Chkout = document.getElementById('Chkout');
 	
-	Chkout.addEventListener("click", Chkout, false);
+	Chkout.addEventListener("click", 'ChkoutFunc', false);
 	
 	
 	
