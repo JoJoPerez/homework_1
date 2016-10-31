@@ -1,9 +1,26 @@
-console.log('my js is connected')
+console.log('connected');
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+var backgroundColor = $('li').css('background-color');
+
+$('li').css('background-color' , 'LightGreen');
+$('li').css('padding-left', '+=20');
+$('li').css({'background-color': 'LightGreen', 'font-family': 'Courier'
+});
 
 
-var backgroudColor = $('div').css('background-color');
 
-$('div').css('background-color', 'Wheat');
+
+
+
+});
+
+
+
+
+
+
 
 
 
