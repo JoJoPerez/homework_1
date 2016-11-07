@@ -1,6 +1,5 @@
-console.log('connected');
-
-document.addEventListener("DOMContentLoaded", function(event) {
+$(function() {
+	console.log('blah');
 
 var backgroundColor = $('li').css('background-color');
 

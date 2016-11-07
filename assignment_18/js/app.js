@@ -1,6 +1,6 @@
 console.log('my js was hit')
 
-var cameras = new Array( 'sony' ,  'canon' ,  'fuji')
+var cameras = new Array ['sony' ,  'canon' ,  'fuji'];
 
 for (i = 0; i < cameras.length; i++) { 
     console.log ( cameras [i] );
