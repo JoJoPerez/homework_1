@@ -8,7 +8,19 @@ $(function() {
 	var $type = $('#type');
 	var $brand = $('#brand');
 	var $addShoe = $('#add-shoe');
+  
 
+	var thingsTemplate = "" +
+	"<li>" +
+	"<p><strong>Name:</strong> {{name}}</p>" +   
+	"<p><strong>Age:</strong> {{age}}</p>" +
+	"<button data-id='{{id}}' class='remove'>X</button>" +
+	"</li>";
+	
+	function addThings(things){
+		$thingsDiv.append(Mustache.render(thingsTemplate, things));
+	  }
+	
 	$.ajax({
 		type: 'GET',
 		url: 'http://rest.learncode.academy/api/johnbob/friends',
@@ -17,7 +29,7 @@ $(function() {
 		//	alert("API is UP safe to proceed");
 
 			$.each(data, function(i, thing){ // success statement 2
-				$thingsDiv.append("<li>" + thing.name + " you are this old: " + thing.age + "</li>")
+				
 			});
 		},
 		error: function() {
