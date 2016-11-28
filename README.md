@@ -11,3 +11,4 @@ what gets hoisted in JS? Variables can be Hoisted
 tell me about document.addEventListener("DOMContentLoaded", function(event) { and window.onload
 
 tell me what color this element would be if the following css was in the css file
+!
